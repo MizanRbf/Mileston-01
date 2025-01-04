@@ -1,0 +1,43 @@
+img {
+  width: 300px;
+  height: 200px;
+}
+img, 
+p,
+button,
+h1,
+h2,
+section,
+strong {
+  background: teal;
+}
+strong {
+  display: block;
+}
+section {
+  display: inline-block;
+}
+h1 {
+  display: inline-block;
+}
+h2 {
+  display: inline-block;
+}
+img {
+  display: block;
+}
+
+p {
+  display:inline-block;
+  height: 100px;
+}
+button {
+  display: block;
+}
+span {
+  height: 100px;
+  display: inline-block;
+}
+
+
+

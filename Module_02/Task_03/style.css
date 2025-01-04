@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: rgb(10, 135, 19);
+  text-align: center;
+  margin-top: 10px;
+}
+.parent {
+  margin: 5px 10px;
+  padding: 5px 10px;
+  width: 90%;
+  border: 1px solid #ddd;
+}
+.first {
+  background: rgb(54, 145, 145);
+  color: black;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  text-align: justify;
+  border-radius: 5px;
+}
+.second {
+  background: rgb(145, 112, 54);
+  color: black;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  text-align: justify;
+  border-radius: 5px;
+}
+#first {
+  background: rgb(54, 54, 145);
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  text-align: justify;
+  border-radius: 5px;
+}
+#second {
+  background: rgb(144, 54, 145);
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  text-align: justify;
+  border-radius: 5px;
+}

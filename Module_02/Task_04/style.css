@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.parent {
+  margin: 5px 10px;
+  padding: 5px 10px;
+  width: 90%;
+  border: 1px solid #ddd;
+}
+.first {
+  background: rgb(54, 145, 145);
+  color: black;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  text-align: justify;
+  border-radius: 5px;
+}
+.second {
+  background: rgb(145, 112, 54);
+  background-image: url(scenery.webp);
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: black;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  text-align: justify;
+  border-radius: 5px;
+}
+#first {
+  background: rgb(54, 54, 145);
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  text-align: justify;
+  border-radius: 5px;
+}
+#second {
+  background: rgb(144, 54, 145);
+  background-image: url(waterfall.avif);
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  text-align: justify;
+  border-radius: 5px;
+}

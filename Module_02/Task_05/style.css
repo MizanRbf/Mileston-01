@@ -1,0 +1,42 @@
+.parent {
+  width: 80%;
+  margin: 2% auto;
+  padding: 2% auto;
+  text-align: center;
+}
+
+.parent .child {
+  padding: 5px 10px;
+  text-align: justify;
+  color: white;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.one {
+background: rgb(11, 128, 11);
+border: 2px solid rgb(0, 0, 0);
+border-radius: 5px;
+box-shadow: 8px 5px 50px green;
+}
+.two {
+  background: rgb(153, 96, 17);
+border: 2px solid rgb(0, 0, 0);
+border-radius: 5px;
+box-shadow: 8px 5px 50px rgb(153, 96, 17);
+}
+#three {
+  background: rgb(7, 11, 124);
+border: 2px solid rgb(0, 0, 0);
+border-radius: 5px;
+box-shadow: 8px 5px 50px rgb(7, 11, 124);
+}
+#four {
+  background: rgb(96, 7, 70);
+border: 2px solid rgb(0, 0, 0);
+border-radius: 5px;
+box-shadow: 8px 5px 50px  rgb(96, 7, 70);
+}
+img {
+width: 300px;
+height: 200px;
+}

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lan="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>My Travel Blog</title>
+  </head>
+
+    <!-- 
+  Explanation:
+
+doctype => It's not an HTML tag. It's an information to the browser about what document type to expect.
+
+   html => This is the root element in an HTML document. It's the beginning and end of an HTML document and contains all other element within it.
+
+   head => It's a container for metadata. It is an invisible tag.
+
+   meta => It defines metadata about an HTML document. Metadata is an information about data. It's used  always inside the <head> tag.
+
+  title => It defines the title of the document.
+
+   body => It is a visible tag. It defines the document's body. It contains all the contents of an HTML document.
+  -->
+
+  <body>
+    <h1><i>My Travel Blog</i></h1>
+    <!-- h= Heading Tag; h1, h2, h3, h4, h5, h6. -->
+    <div>
+      <!-- (div=division) It's a container tag -->
+      <p>Recently I traveled to <strong>Indonesia</strong>. This country is so beautiful. Because, it is located inside <em>Pacific Ocean</em>. Where the sea food is so available. There are many things to buy here. I also bought some things. So, I recommended you should visit this country.</p>
+    </div>
+      
+          <!-- 
+       Semantic/Meaningful vs. Normal 
+
+       strong => It's an Emphasized Bold Tag.
+            b => It's a Normal Bold Tag.
+           em => It's an Emphasized Italic Tag.
+            i => It's a Normal Italic Tag.
+          -->
+
+    <button>Read More</button> 
+    <br> 
+    <!-- br = Break is a Void Tag or Self Closing tag. -->
+    <br>
+    <span><b>What I bought</b></span>
+    <ol>
+      <!-- ol = Ordered List -->
+      <!-- li = List Item -->
+      <li>Cap</li>
+      <li>Shoe</li>
+      <li>Bag</li>
+      <li>Panjabi</li>
+      <li>Watch</li>
+    </ol>
+
+    <!-- span = It's an inline element which is used to color a part of a text. -->
+    <span><b>My favorite food</b></span>
+       <ul>
+         <li>Burger</li>
+         <li>Pizza</li>
+         <li>Pasta</li>
+         <li>Chicken</li>
+         <li>Chopstick</li>
+       </ul>
+       <!-- ul = Unordered List -->
+
+        <!-- Image from Local Folder -->
+       <img src="images/burger.webp" alt="One of my favorite food" width="350px" height="300px">
+       
+       <!-- img= image; is a Void or Self Closing Tag , src= Source alt= Alternative -->
+
+       <h4>My Favorite Song</h4>
+       <a href="https://youtu.be/saWAwBw-NqQ" target="_blank" >Click here to listen</a>
+       <!-- a = Anchor, href = Hyper Reference -->
+
+      <!-- Target Attribute -->
+        <!--
+         Value: 
+         1. _self => Open in Same Tab.
+         2. _blank => Open in a new Tab.
+
+         For Iframe:
+         3. _parent
+         4. _top
+         5. Framename 
+        -->
+  </body>
+</html>
