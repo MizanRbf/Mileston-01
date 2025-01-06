@@ -1,0 +1,16 @@
+table {
+  border: 1px solid black;
+}
+tr,th,td {
+  border: 1px solid black;
+  /* border-style: double; */
+  margin: 0;
+  padding: 4px;
+  /* border-collapse: collapse; */
+}
+th {
+  text-align: center;
+}
+tr,th,td {
+  margin: 0;
+}

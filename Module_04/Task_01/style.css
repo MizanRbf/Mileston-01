@@ -1,0 +1,11 @@
+main .three label
+ {
+  display: block;
+}
+main .one label {
+  display: inline-block;
+}
+img {
+  display: block;
+  margin-top: 10px;
+}
