@@ -1,0 +1,29 @@
+.parent {
+  padding: 25px;
+  background-color: blanchedalmond;
+  display: flex;
+  gap: 30px;
+  /* justify-content: end;
+  justify-content: start; */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  justify-content: space-between;
+  /* justify-content: space-evenly; */
+  height: 350px;
+  /* align-items: stretch; 
+  align-items: start;  */
+  align-items: center; 
+  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.child {
+  border: 2px solid turquoise;
+  background: rgb(207, 226, 232);
+  padding: 20px;
+  font-size: 18px;
+  /* display: inline-block; */
+  /* display: inline; */
+}

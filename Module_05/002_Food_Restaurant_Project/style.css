@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", serif; */
+*{
+  margin: 0;
+  padding: 0;
+}
+.btn {
+  padding: 10px 14px 10px 14px;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 10px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 6px;
+background: rgb(82, 195, 3);
+border: none;
+margin-bottom: 100px;
+}
+.btn-container {
+  text-align: center;
+}
+#hero {
+  background: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),
+  url("assets/hero-bg.png");
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#hero .hero-content {
+  width: 531px;
+  
+}
+#hero .hero-content .subtitle {
+  opacity: 0.8;
+  color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 6px;
+}
+#hero .hero-content .title {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#hero .hero-content .description {
+  opacity: 0.6;
+  color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 10px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 16px;
+}
