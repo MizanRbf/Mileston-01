@@ -12,7 +12,6 @@
 }
 .hero .search{
   display: flex;
-  border: none;
   padding: 10px;
   padding-right: 10px;
 
@@ -20,5 +19,11 @@
 .hero .search input{
   border: none;
   padding: 10px;
- 
+  border-radius: 20px 0 0 20px;
+}
+.hero .search button{
+  border: none;
+  border-radius: 0 20px 20px 0;
+  padding: 10px;
+  background-color: rgb(83, 167, 83);
 }
